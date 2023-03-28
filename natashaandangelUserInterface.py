@@ -120,7 +120,7 @@ def runApp(userName, satData):
 
 # At the end, user can put their inputs and it will generate well by Natasha Palana
 
-
+#Angelline's code here below:
 
 
 def compute_distance(current_position, destination_position):
