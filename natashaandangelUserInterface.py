@@ -1,6 +1,6 @@
 
 import io
-import gladysUserLogin 
+import gladysWestLogin 
 import gladysCompute 
 import gladysSatellite 
 
@@ -16,7 +16,7 @@ def runTests():
 
 # When type "t" --- test gladysUserLogin.login()
 
-	userName = gladysUserLogin.login()
+	userName = gladysWestLogin.login()
 	print("Your userName: ", userName)
 
 # When type "t" --- test gladysSatellite.readSat()
@@ -44,7 +44,7 @@ def start():
 	"""
 # Login the user
 
-	userName = gladysUserLogin.login()
+	userName = gladysWestLogin.login()
 	print("Your userName: ", userName)
 	runApp(userName)
 
